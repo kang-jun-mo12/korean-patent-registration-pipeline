@@ -1,0 +1,18 @@
+{
+  "source_zip": "/mnt/c/handoff-last/patent30000_h200_bf16_lora/raw/patent_30000_with_2_prior_art_claims_fixed.zip",
+  "source_rows": 30000,
+  "target_count": 30000,
+  "positive_pair_count": 60000,
+  "train_pair_count": 54000,
+  "eval_pair_count": 6000,
+  "corpus_all_rows": 60000,
+  "corpus_unique_rows": 29794,
+  "eval_target_ratio": 0.1,
+  "split_seed": 42,
+  "class_counts": {
+    "등록": 10000,
+    "거절-진보성 부족": 10000,
+    "거절-신규성 부족": 10000
+  },
+  "text_policy": "SBERT input uses invention_title + abstract + claim 1 with simple Korean patent boilerplate removal."
+}

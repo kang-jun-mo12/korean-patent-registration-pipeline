@@ -1,0 +1,45 @@
+{
+  "source_rows": 30000,
+  "source_class_counts": {
+    "등록": 10000,
+    "거절-진보성 부족": 10000,
+    "거절-신규성 부족": 10000
+  },
+  "novelty": {
+    "policy": "balanced: 부족 10000 + 만족 10000(등록 5000, 진보성부족 5000)",
+    "train_rows": 18000,
+    "val_rows": 1000,
+    "test_rows": 1000,
+    "train_label_counts": {
+      "부족": 9000,
+      "만족": 9000
+    },
+    "val_label_counts": {
+      "부족": 500,
+      "만족": 500
+    },
+    "test_label_counts": {
+      "부족": 500,
+      "만족": 500
+    }
+  },
+  "inventive": {
+    "policy": "balanced: 부족 10000(진보성부족) + 만족 10000(등록), 신규성부족은 판정제외로 미사용",
+    "train_rows": 18000,
+    "val_rows": 1000,
+    "test_rows": 1000,
+    "train_label_counts": {
+      "부족": 9000,
+      "만족": 9000
+    },
+    "val_label_counts": {
+      "부족": 500,
+      "만족": 500
+    },
+    "test_label_counts": {
+      "만족": 500,
+      "부족": 500
+    }
+  },
+  "seed": 42
+}

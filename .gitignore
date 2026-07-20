@@ -1,0 +1,55 @@
+# Local Codex/agent state
+/.agents/
+
+# Duplicate distribution archives. Their useful source files and model assets
+# are already present as normal files or Git LFS objects in this repository.
+/lora_sbert_training_code_bundle.zip
+/lora_sbert_training_code_bundle_with_inference.zip
+/lora_sbert_training_code_bundle_with_inference_slim.zip
+/qwen32b_lora_adapters_novelty_inventive.zip
+
+# Private/local model assets and retrieval data. These are intentionally kept
+# out of the public GitHub repository and can be distributed separately after
+# their licenses and redistribution rights are confirmed.
+/END/checkpoint-1500/
+/END/checkpoint-2000/
+/END/handoff_to_friend/subclass_adapter/
+/END/patent30000_sbert_h200/models/
+/END/patent30000_sbert_h200/index/
+
+# Evaluation records containing document text and per-sample predictions.
+/END/final_eval_sample_lookup.jsonl
+/END/final_eval_summary.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.Python
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Hugging Face and model caches
+.cache/
+hf_cache/
+huggingface/
+
+# Local inputs and generated inference outputs
+.env
+.env.*
+!.env.example
+END/final_inference_output.json
+END/input.json
+END/input.txt
+*.log
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini

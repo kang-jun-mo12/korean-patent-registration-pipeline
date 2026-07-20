@@ -1,0 +1,9 @@
+{
+  "folder": "/mnt/c/handoff-last/patent30000_subclass_h200_pseudo",
+  "mode": "grounded_only",
+  "train_rows": 2654,
+  "val_rows": 332,
+  "test_rows": 332,
+  "pseudo_default_removed": true,
+  "input_format": "system_plus_user_prompt_full_target_d1_d2_title_abstract_all_claims"
+}

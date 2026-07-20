@@ -1,0 +1,11 @@
+# Install a CUDA-compatible PyTorch build first when the default PyPI build
+# does not match the target machine.
+torch>=2.11,<3
+transformers>=5.10.2,<6
+accelerate>=1,<2
+peft>=0.19.1,<1
+sentence-transformers>=5.5.1,<6
+numpy>=1.26,<3
+safetensors>=0.5,<1
+tqdm>=4.66,<5
+datasets>=4,<5
