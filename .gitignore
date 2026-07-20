@@ -21,6 +21,10 @@
 /END/final_eval_sample_lookup.jsonl
 /END/final_eval_summary.json
 
+# Local source note used to document the KIPRIS collection method. Its
+# intermediate counts are not the final 30k + 30k project dataset totals.
+/DATA_COLLECTION_PROCESS.md
+
 # Python
 __pycache__/
 *.py[cod]
