@@ -1,4 +1,4 @@
-# Korean Patent Registration Inference Pipeline
+# 특허나침반 — 한국어 특허 심사 보조 AI
 
 한국어 특허 문헌을 입력받아 선행기술을 검색하고 신규성·진보성·거절 세부 유형을 추론하는 연구용 파이프라인입니다.
 
